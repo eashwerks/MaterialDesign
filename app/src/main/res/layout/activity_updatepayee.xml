@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="info.expensemanager.expfile.activity.FriendsFragment">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BARLAYOUT"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BARLAYOUT"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/LL1"
+        android:layout_alignParentStart="true"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/txtid"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Update Payee Details"
+            android:id="@+id/txtheader"
+            android:capitalize="sentences"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="gravity"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="Arial"
+            android:textColor="@color/background_material_dark"
+
+            android:textSize="25dp"
+            android:foreground="@color/accent_material_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Payee Name"
+            android:id="@+id/txtviewcategory" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/txtpayeename" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Address"
+            android:id="@+id/textView4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/txtaddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Mobile No"
+            android:id="@+id/textView4p" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/txtmobile" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btnsubmit"
+            android:layout_gravity="center_horizontal" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/background_material_dark"
+        android:id="@+id/LL2"
+        android:orientation="vertical"
+
+        android:layout_below="@+id/LL1"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+</RelativeLayout>

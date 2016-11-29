@@ -1,0 +1,88 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/L1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Database backup file placed into \n /mnt/SDcard/ExpenseManager/ \n with corresponding datetime folder"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btnbackup"
+            android:background="#FF6600"
+            android:layout_margin="10dp"
+            android:text="Back Up Databse"
+            android:textColor="#FFFFFF"
+            android:layout_height="45dp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/L2"
+        android:orientation="vertical"
+
+        android:layout_below="@+id/L1"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="7"
+
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="0dp"
+                android:id="@+id/edtextPath"
+                android:layout_weight="5"
+                android:hint="Choose File"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="8dp"
+                android:background="#F6F6F6"
+                android:layout_height="48dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_marginTop="3dp"
+                android:id="@+id/btnrestore"
+android:text="Browse"
+                android:layout_height="55dp" />
+        </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/L3"
+        android:layout_below="@+id/L2"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Restore from folder"
+            android:layout_margin="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_height="match_parent" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btnselect"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Restore Database"
+            android:background="#5EBA7D"
+            android:textColor="#FFFFFF"
+            android:layout_height="45dp" />
+        </LinearLayout>
+
+</RelativeLayout>

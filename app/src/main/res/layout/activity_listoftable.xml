@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/ghfh">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/L1"
+        android:orientation="horizontal"
+        android:weightSum="9"
+        android:background="@drawable/cell_shape"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:background="@drawable/cell_shape"
+
+            android:layout_height="match_parent"
+            android:id="@+id/kllk">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Purpose"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/lll" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+
+            android:background="@drawable/cell_shape"
+            android:layout_height="match_parent"
+            android:id="@+id/kljkkk">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Income"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#FAFAFA"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/cell_shape"
+            android:layout_height="match_parent"
+            android:id="@+id/kk">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Expense"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/jj" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/L1B"
+        android:layout_below="@+id/L1"
+        android:orientation="horizontal"
+
+        android:weightSum="9"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+
+            android:layout_weight="3"
+            android:background="@drawable/cell_shape"
+            android:layout_height="match_parent"
+            android:id="@+id/oiollfio">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Salary"
+                android:layout_height="wrap_content"
+                android:id="@+id/txfft55" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:paddingRight="3dp"
+            android:gravity="right"
+
+            android:background="@drawable/cell_shape"
+            android:layout_height="match_parent"
+            android:id="@+id/fdkffkklkkjf">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="2550.00"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/kjklllkkjks" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:paddingRight="3dp"
+            android:gravity="right"
+
+            android:layout_height="match_parent"
+            android:id="@+id/lllk">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="-"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/kqqgggkkk" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

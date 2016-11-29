@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:padding="14dp"
+    android:background="#FFFFFF"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/Linear1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:src="@drawable/file_edit"
+            android:layout_height="35dp"
+            android:id="@+id/lkl" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Edit Payee"
+            android:textColor="@color/Black"
+            android:textSize="15dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/jkg" />
+<TextView
+    android:layout_width="wrap_content"
+    android:visibility="gone"
+    android:id="@+id/TXTID"
+    android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/Linear2"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Linear1"
+        android:background="?attr/selectableItemBackground"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:src="@drawable/file_search"
+            android:layout_height="35dp"
+            android:id="@+id/qq" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Change Transaction"
+            android:textColor="@color/DarkRed"
+            android:textSize="15dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/Linear3"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Linear2"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:src="@drawable/file_delete"
+            android:layout_height="35dp"
+            android:id="@+id/fddf" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Delete Payee"
+            android:textColor="@color/DarkRed"
+            android:textSize="15dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/kkk" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/Linear4"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Linear3"
+        android:gravity="center_vertical"
+        android:background="?attr/selectableItemBackground"
+
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:src="@drawable/cancel"
+            android:layout_height="35dp"
+            android:id="@+id/fgfd" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Cancel"
+            android:textColor="@color/DarkRed"
+            android:textSize="15dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fdg" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

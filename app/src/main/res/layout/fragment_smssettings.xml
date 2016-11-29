@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context="info.expensemanager.expfile.activity.HomeFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linearS2"
+
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Eg. VM SBT"
+            android:layout_margin="3dp"
+            android:background="#F1F1F1"
+            android:padding="2dp"
+
+            android:id="@+id/txtprovider"
+
+            />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/lineara"
+        android:layout_below="@+id/linearS2"
+        android:weightSum="8"
+android:padding="5dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit"
+            android:id="@+id/chkcredit"
+            android:layout_weight="4"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Withdrawn"
+            android:id="@+id/chkwithdrawn"
+
+          android:layout_weight="4"
+            android:checked="false" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/lineara2"
+        android:layout_below="@+id/lineara"
+        android:weightSum="8"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:layout_margin="3dp"
+            android:background="#F1F1F1"
+            android:padding="2dp"
+            android:ems="10"
+            android:id="@+id/txtwithdrwn"
+            android:layout_weight="4"
+
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_margin="3dp"
+            android:background="#F1F1F1"
+
+            android:layout_weight="4"
+            android:id="@+id/txtcredit"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linearb"
+        android:layout_below="@+id/lineara2"
+        android:weightSum="8"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:background="#337AB7"
+            android:layout_weight="2"
+            android:id="@+id/btnadd1" />
+
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="2dp"
+            android:background="#5CB85C"
+            android:layout_weight="2"
+            android:id="@+id/btnminus1" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="2dp"
+            android:background="#337AB7"
+            android:layout_weight="2"
+            android:id="@+id/btnadd2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_marginLeft="2dp"
+            android:textColor="#FFFFFF"
+            android:background="#5CB85C"
+            android:layout_weight="2"
+            android:id="@+id/btnminus2" />
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:id="@+id/linearc"
+      android:padding="5dp"
+      android:layout_marginTop="10dp"
+      android:layout_below="@+id/linearb"
+      android:layout_height="wrap_content">
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="45dp"
+          android:text="Save Details"
+          android:background="#C9302C"
+          android:textColor="#FFFFFF"
+          android:id="@+id/btnsubmit"
+
+           />
+  </LinearLayout>
+
+</RelativeLayout>

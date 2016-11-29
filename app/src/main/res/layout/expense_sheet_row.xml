@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:padding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="right|end"
+            android:id="@+id/txtdateview"
+            android:textColor="#0000FF"
+            android:text="Date : 20 Oct 2016"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginBottom="2dp"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:id="@+id/LL">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtno"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="1dp"
+
+                android:padding="2dp"
+                android:background="#342536"
+                android:text=" No : 289 "/>
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="16dp"
+            android:id="@+id/ll4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtcategory_view"
+                android:layout_marginTop="25dp"
+                android:textColor="#00FF00"
+                android:text="Category : Food / Hotel"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/txtdescview"
+                android:text="Description:Payment to friend"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="right"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="3dp"
+        android:textSize="23dp"
+        android:id="@+id/txtamountview"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:text="$458.00"/>
+
+</LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,105 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#CCC"
+    android:paddingTop="1dp"
+    android:stretchColumns="0"
+    android:id="@+id/tlTable01">
+    <TableRow
+        android:background="#CCC"
+        android:paddingBottom="1dp"
+        android:paddingRight="1dp"
+        android:id="@+id/ds">
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:text="Date"
+            android:id="@+id/dsff" />
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+
+            android:text="Purpose"/>
+
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:gravity="right"
+            android:text="Income"/>
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:gravity="right"
+            android:text="EXpense"/>
+    </TableRow>
+
+    <TableRow
+        android:background="#CCC"
+        android:paddingBottom="1dp"
+        android:paddingRight="1dp">
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:text="12/12/2012"
+            android:id="@+id/qwqw" />
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:gravity="right"
+            android:text="Salary"
+            android:id="@+id/sds" />
+        <TextView
+        android:layout_marginLeft="1dp"
+        android:padding="5dp"
+        android:background="#FFF"
+        android:gravity="right"
+        android:text="999000.00"
+        android:id="@+id/d12d" />
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:gravity="right"
+            android:id="@+id/h22dd" />
+    </TableRow>
+    <TableRow
+        android:background="#CCC"
+        android:paddingBottom="1dp"
+        android:paddingRight="1dp">
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:id="@+id/qw11qw" />
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:gravity="right"
+            android:text="Bank loan &amp; v Vegetable"
+            android:id="@+id/s1ds" />
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:gravity="right"
+            android:id="@+id/d112d" />
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:gravity="right"
+            android:text="0.00"
+            android:id="@+id/h22dd1" />
+    </TableRow>
+
+</TableLayout>

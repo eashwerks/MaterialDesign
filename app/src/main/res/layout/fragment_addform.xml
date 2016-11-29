@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="info.expensemanager.expfile.activity.FriendsFragment">
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_marginTop="31dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"
+        android:text="Blood Donor Form"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_below="@id/label"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Edit fragment_friends.xml to change the appearance"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/txtusername"
+        android:layout_marginTop="39dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtpassword"
+        android:hint="Enter email address"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/txtusername"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/txtpassword"
+        android:layout_alignLeft="@+id/txtusername"
+        android:layout_alignStart="@+id/txtusername"
+        android:layout_marginTop="33dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Blood Group"
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/spinner"
+        android:layout_alignStart="@+id/spinner" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_marginTop="32dp"
+        android:hint="Enter mobile number"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit "
+        android:id="@+id/button"
+        android:layout_below="@+id/editText3"
+        android:layout_alignRight="@+id/txtusername"
+        android:layout_alignEnd="@+id/txtusername"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginTop="36dp" />
+
+</RelativeLayout>
